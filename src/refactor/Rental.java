@@ -10,6 +10,13 @@ class Rental {
         daysRented = newdaysRented;
     }
 
+    public void setMovie(Movie movie) {
+        this.movie = movie;
+    }
+
+    public void setDaysRented(int daysRented) {
+        this.daysRented = daysRented;
+    }
 
     public int getDaysRented() {
         return daysRented;
